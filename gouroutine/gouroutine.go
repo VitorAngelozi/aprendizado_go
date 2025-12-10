@@ -12,6 +12,9 @@ func main() {
 }
 
 func escrever(a string) {
-	fmt.Println(a)
-	time.Sleep(time.Second)
+
+	for {
+		fmt.Println(a)
+		time.Sleep(time.Second)
+	}
 }
