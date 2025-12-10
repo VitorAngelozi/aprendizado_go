@@ -20,7 +20,7 @@ func main() {
 	canal <- 4
 	canal <- 5
 	canal <- 6
-	fmt.Println(<-canal) // lê o terceiro valor
-	fmt.Println(<-canal) // lê o terceiro valor
+	fmt.Println(<-canal) // lê o primerio valor
+	fmt.Println(<-canal) // lê o segundo valor
 	fmt.Println(<-canal) // lê o terceiro valor
 }
